@@ -1,0 +1,31 @@
+GET http://localhost:3000/api/peoples
+
+###
+
+GET http://localhost:3000/api/peoples/66a7605f35ab58960b4d38db
+
+###
+
+POST http://localhost:3000/api/peoples HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Johnaw wessse",
+  "phoneNumber" : "1299334343343",
+  "email": "john@eample.com"
+}
+
+###
+
+PUT http://localhost:3000/api/peoples/66a7605535ab58960b4d38d9 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Johna wessse",
+  "phoneNumber" : "1233434343",
+  "email": "johnd@eample.com"
+}
+
+###
+
+DELETE http://localhost:3000/api/peoples/66a75aabff3fc70ea8587e0a
